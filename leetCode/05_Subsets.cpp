@@ -19,3 +19,25 @@ public:
         return vv;
     }
 };
+
+/*
+//Solving by bit_manipulation
+// source -> https://youtu.be/wpWGDHmpbgA
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> all_subs; 
+        int elements = nums.size();
+        int combination=(1<<elements);
+        for(int i=0;i<combination ;i++){
+            vector<int>subs;
+           for(int j=0;j<elements;j++) 
+              if((i&(1<<j))!=0)
+                 subs.push_back(nums[j]);
+            all_subs.push_back(subs);
+        }
+     return all_subs;
+ }
+};
+
+*/
