@@ -1,5 +1,5 @@
 //Staring with the name of Allah.
-//source->https://youtu.be/u0e29JIdxZU
+//source-> https://youtu.be/4KpSXSIPH2s
 void generate(int l,int r,string &s,vector<string>&v){
     if(not(l+r)){
         v.push_back(s);
