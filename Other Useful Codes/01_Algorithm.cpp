@@ -200,7 +200,7 @@
         }
         return cnt;
     }
-     
+    
     // -------------------nCr(Binomial)------------------- //
      
     int nCr(int n, int k) 
